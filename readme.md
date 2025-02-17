@@ -14,7 +14,7 @@
 
 - **先使用 zero-shot，再尝试 few-shot**：推理模型在理解问题和指令时具有较强的能力，通常 zero-shot 会取得较好的效果。如果确实需要使用 few-shot，确保示例与指令高度相关。
 
-- **提示词结构要清晰**：使用如 markdown 标题或 XML 标签等方式来结构化提示词，有助于提高模型的理解和响应质量。
+- **提示词结构要清晰**：使用如 markdown 标题或 XML 标签等方式来结构化提示词，有助于提高模型的理解和响应质量。比如 # persona, # background information, # task description, # shots, # objective。
 
 - **用清晰的语句表达任务目标**：先用常规大语言模型完善提示词，再将其输入推理大语言模型，以确保任务目标明确。
 
